@@ -1,0 +1,22 @@
+{
+  "name": "rss-combiner",
+  "version": "1.0.0",
+  "description": "Combines multiple RSS feeds into a single feed",
+  "main": "src/index.js",
+  "dependencies": {
+    "davefeedread": "^0.5.9",
+    "feed": "^3.0.0",
+    "netlify-lambda": "^1.4.13",
+    "podcast": "^1.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  },
+  "scripts": {
+    "build:lambda": "netlify-lambda build src",
+    "start:lambda": "netlify-lambda serve src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
